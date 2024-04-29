@@ -40,7 +40,7 @@ ln -s raw_data/yfcc100m/* /path_to/data/yfcc/test
 
 ## Evaluation
 
-We provide the evaluation without any model fine-tuning. The batch size is set to 1.  Please consider downloading the models [here]() and following the commands below for the evaluation. We will release the finetuned model soon. Note we run the evaluation with and without CSE for a more fair comparison.
+We provide the evaluation without any model fine-tuning. The batch size is set to 1 to allow single gpu evaluation.  Please consider downloading the models [here](https://drive.google.com/drive/folders/1lUpLCfkZJePPNEgSwS3OKkhIXvx_L5OR?usp=drive_link) and following the commands below for the evaluation. The weights can also be downloaded from the original [QuadTree](https://github.com/Tangshitao/QuadTreeAttention) and [DPT](https://github.com/isl-org/DPT) repos. Note we run the evaluation with and without CSE for a more fair comparison.
 
 ```
 # For ScanNet
